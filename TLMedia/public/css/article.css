@@ -1,0 +1,14 @@
+.container{
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-between;
+
+}
+
+.card{
+  width:256px;
+  height:355px;
+  margin-right:14px;
+  margin-bottom: 14px;
+
+}

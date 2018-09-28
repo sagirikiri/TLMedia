@@ -1,13 +1,17 @@
 @extends('layouts.app')
+<link href="{{ asset('css/article.css') }}" rel="stylesheet">
 
 @section('content')
+  <div class="container">
     @foreach ($articles as $article)
-    <div class="card mb-2">
-      <div class="card-body">
-        <h4 class="card-header">{{ $article->title }}</h4>
-        <h6 class="card-subtitle mb-2 text-muted">{{ $article->updated_at }}</h6>
-        <p class="card-body">{{ $article->body }}</p>
+    <a href="" class="card">
+      <div>
+        <div class="card-body">
+          <h4 class="card-title">{{ $article->title }}</h4>
+          <p class="card-text">{{ $article->body }}</p>
+        </div>
       </div>
-    </div>
+      </a>
     @endforeach
+  </div>
 @endsection

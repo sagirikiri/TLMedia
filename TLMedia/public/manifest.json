@@ -1,19 +1,19 @@
 {
-  "short_name": "AirHorner",
-  "name": "Kinlan's AirHorner of Infamy",
+  "short_name": "Teacher`s Navi.",
+  "name": "Teacher`s Navi.",
   "icons": [
     {
-      "src": "launcher-icon-1x.png",
+      "src": "Logo.png",
       "type": "image/png",
       "sizes": "48x48"
     },
     {
-      "src": "launcher-icon-2x.png",
+      "src": "Logo.png",
       "type": "image/png",
       "sizes": "96x96"
     },
     {
-      "src": "launcher-icon-4x.png",
+      "src": "Logo.png",
       "type": "image/png",
       "sizes": "192x192"
     }

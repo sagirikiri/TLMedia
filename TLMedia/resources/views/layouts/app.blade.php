@@ -59,7 +59,9 @@
                                                      document.getElementById('logout-form').submit();">
                                         {{ __('ログアウト') }}
                                     </a>
-
+                                    <a class="dropdown-item"  href="google.com">
+                                        {{ __('マイページへ') }}
+                                    </a>    
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                         @csrf
                                     </form>
@@ -74,6 +76,9 @@
         <main class="py-4">
             @yield('content')
         </main>
+        <footer class="text-center" style="position: fixed;bottom: 0;width: 100%;height: 50px;">
+            © Teacher`s Lab. All Rights reserved.
+        </footer>
     </div>
 </body>
 </html>
