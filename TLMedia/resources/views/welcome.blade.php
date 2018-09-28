@@ -69,7 +69,7 @@
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
-                        <a href="{{ url('/home') }}">Teacher`s Navi.</a>
+                        <a href="{{ url('/logout') }}">ログアウト</a>
                     @else
                         <a href="{{ route('login') }}">ログイン</a>
                         <a href="{{ route('register') }}">新規登録</a>
