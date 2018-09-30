@@ -27,4 +27,9 @@ class ArticleController extends Controller
         return view('article.store');
 
     }
+    public function show($id) {
+        $article = Article::find($id);
+
+        return view('article.show',['article'=>$article]);
+    }
 }

@@ -4,11 +4,11 @@
 @section('content')
   <div class="container">
     @foreach ($articles as $article)
-    <a href="" class="card">
+    <a href="/articles/{{$article->id}}" class="card">
       <div>
         <div class="card-body">
           <h4 class="card-title">{{ $article->title }}</h4>
-          <p class="card-text">{{ $article->body }}</p>
+<!--           <p class="card-text">{{ $article->body }}</p> -->
         </div>
       </div>
       </a>
